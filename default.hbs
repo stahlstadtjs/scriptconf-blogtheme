@@ -31,7 +31,7 @@
     <meta name="theme-color" content="#2F2F2C">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/main.css?v=3" charset="utf-8">
+    <link rel="stylesheet" href="http://localhost:3000/styles/main.css?v=6" charset="utf-8">
     {{!-- Ghost outputs important style and meta data with this tag --}}
     {{ghost_head}}
 </head>
@@ -39,10 +39,7 @@
 
     {{navigation}}
 
-    {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
-    <div class="section-inverse">
-      {{{body}}}
-    </div>
+    {{{body}}}
 
     <footer class="foot">
       <a href="https://twitter.com/scriptconf">Script'17 at Twitter</a> |
@@ -76,6 +73,10 @@
         <title>ticket</title>
         <path class="path1" d="M18 10l4 4-8 8-4-4zM31.298 9.297l-2.297-2.297-1 1c-0.512 0.512-1.219 0.828-2 0.828-1.562 0-2.829-1.266-2.829-2.828 0-0.781 0.317-1.489 0.829-2.001l1-1-2.297-2.297c-0.936-0.936-2.469-0.936-3.405 0l-18.595 18.595c-0.936 0.936-0.936 2.469 0 3.405l2.297 2.297 0.999-0.999c0.512-0.513 1.22-0.83 2.001-0.83 1.562 0 2.828 1.266 2.828 2.828 0 0.781-0.317 1.489-0.829 2.001l-1 1 2.297 2.297c0.936 0.936 2.469 0.936 3.405 0l18.595-18.595c0.936-0.937 0.936-2.469 0-3.406zM14 26l-8-8 12-12 8 8-12 12z"></path>
         </symbol>
+        <symbol id="icon-chevron-left" mi-view-box="0 0 768 1024" viewBox="0 0 768 1024">
+			    <title>chevron-left</title>
+			    <path d="M669.143 172l-303.429 303.429 303.429 303.429q10.857 10.857 10.857 25.714t-10.857 25.714l-94.857 94.857q-10.857 10.857-25.714 10.857t-25.714-10.857l-424-424q-10.857-10.857-10.857-25.714t10.857-25.714l424-424q10.857-10.857 25.714-10.857t25.714 10.857l94.857 94.857q10.857 10.857 10.857 25.714t-10.857 25.714z"></path>
+		     </symbol>
       </defs>
     </svg>
 
